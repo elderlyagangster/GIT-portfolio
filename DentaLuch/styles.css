@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 577px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) ;
+    z-index: 12;
+}
+
+.colblock1 {
+    color: #000;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 h1 {
+    font-size: 500%;  
+}
+
+.block1 h3 {
+    font-size: 3vh;
+}
+
+.ourservices {
+    background-color: #F5F5F5;
+}
+
+.colblock2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colblock2 h1{
+    font-size: 14vh;
+}
+
+.block2 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 3vw;
+}
+
+.block2 a {
+    color: #212529;
+    background-color: #F6D34F;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.block3cf {
+    background-color: #F5F5F5;
+}
+
+.block3 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.block3 .form-floating {
+    color: black;
+}
+
+.block3 button {
+    color: #212529;
+    margin-top: 3%;
+    background-color: #F6D34F;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.formcontact button{
+    color: #212529;
+    margin-top: 3%;
+    background-color: #F6D34F;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+.search a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.serv {
+    height: 100vh;
+}
+
+.btn-primary {
+    color: #212529 !important;
+    background-color: #F6D34F !important;
+    border: none !important;
+    padding: 7px !important;
+}
+
+.reg {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg a {
+    font-size: 15px;
+    width: 200px;
+}
+
+.reg button {
+    font-size: 15px;
+    width: 200px;
+}
+
+.reg input {  
+    font-size: 15px;
+    width: 200px;
+}
+
+.indexreg {
+    height: 100vh;
+}
+
+.revform button {
+    color: #212529;
+    background-color: #F6D34F;
+    border: none;
+}
+
+.rev1 {
+    height: 100vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.hide {
+    display: none;
+}
+
+.adminblock {
+    height: 100vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer {
+    padding: 3%;
+    background-color: #F4F4F4;
+}
